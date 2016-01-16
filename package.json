@@ -20,7 +20,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/spacegeek224/ocean-chat.git"
+      "url": "git://github.com/spacegeek224/ocean-chat.git"
     }
   ],
   "licenses": [
