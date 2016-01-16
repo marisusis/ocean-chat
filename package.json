@@ -29,5 +29,13 @@
       "url": ""
     }
   ],
-  "homepage": "http://spacegeek224.github.io/ocean-chat"
+  "homepage": "http://spacegeek224.github.io/ocean-chat",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "socket.io": "^1.4.4",
+    "multer": "^1.1.0",
+    "bcrypt": "^0.8.5"
+  }
 }
