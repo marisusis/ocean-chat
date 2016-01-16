@@ -17,25 +17,26 @@
   "bugs": {
     "web": "https://github.com/spacegeek224/ocean-chat/issues"
   },
-  "repositories": [
+  "repository": 
     {
       "type": "git",
       "url": "git://github.com/spacegeek224/ocean-chat.git"
-    }
-  ],
-  "licenses": [
+    },
+  "license": 
     {
       "name": "MIT",
       "url": ""
-    }
-  ],
+    },
   "homepage": "http://spacegeek224.github.io/ocean-chat",
   "dependencies": {
-    "colors": "^1.1.2",
+    "bcrypt": "^0.8.5",
     "body-parser": "^1.14.2",
+    "colors": "^1.1.2",
     "express": "^4.13.3",
-    "socket.io": "^1.4.4",
+    "morgan": "^1.6.1",
     "multer": "^1.1.0",
-    "bcrypt": "^0.8.5"
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0",
+    "socket.io": "^1.4.4"
   }
 }
