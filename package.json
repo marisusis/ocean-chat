@@ -1,1 +1,33 @@
-
+{
+  "name": "ocean-chat",
+  "description": "A chat application written in NodeJs, using my own Ocean UI.",
+  "version": "0.0.1",
+  "keywords": [
+    "ocean",
+    "chat",
+    "oceanui"
+  ],
+  "maintainers": [
+    {
+      "name": "Maris Usis",
+      "email": "marisusisme@gmail.com",
+      "web": "http://www.spacegeek224.net"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/spacegeek224/ocean-chat/issues"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/spacegeek224/ocean-chat.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": ""
+    }
+  ],
+  "homepage": "http://spacegeek224.github.io/ocean-chat"
+}
