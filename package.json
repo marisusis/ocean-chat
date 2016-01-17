@@ -2,6 +2,7 @@
   "name": "ocean-chat",
   "description": "A chat application written in NodeJs, using my own Ocean UI.",
   "version": "0.0.1",
+  "main": "app.js",
   "keywords": [
     "ocean",
     "chat",
@@ -17,24 +18,30 @@
   "bugs": {
     "web": "https://github.com/spacegeek224/ocean-chat/issues"
   },
-  "repository": 
-    {
-      "type": "git",
-      "url": "git://github.com/spacegeek224/ocean-chat.git"
-    },
-  "license": 
-    {
-      "name": "MIT",
-      "url": ""
-    },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spacegeek224/ocean-chat.git"
+  },
+  "license": {
+    "name": "MIT",
+    "url": ""
+  },
   "homepage": "http://spacegeek224.github.io/ocean-chat",
   "dependencies": {
     "bcrypt": "^0.8.5",
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.14.2",
     "colors": "^1.1.2",
+    "connect-flash": "^0.1.1",
     "express": "^4.13.3",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.3.6",
     "morgan": "^1.6.1",
     "multer": "^1.1.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
     "path": "^0.12.7",
     "serve-favicon": "^2.3.0",
     "socket.io": "^1.4.4"
